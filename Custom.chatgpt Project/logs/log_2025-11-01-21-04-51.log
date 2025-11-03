@@ -1,0 +1,10 @@
+[2025-11-01 21:04:51,834] app.logger - INFO - \u2705 Application started successfully
+[2025-11-01 21:04:51,869] werkzeug - WARNING -  * Debugger is active!
+[2025-11-01 21:04:51,871] werkzeug - INFO -  * Debugger PIN: 116-441-446
+[2025-11-01 21:05:17,331] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 21:05:17] "GET / HTTP/1.1" 200 -
+[2025-11-01 21:05:17,356] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 21:05:17] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[2025-11-01 21:05:17,365] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 21:05:17] "[33mGET /static/images/image.png HTTP/1.1[0m" 404 -
+[2025-11-01 21:05:23,421] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 21:05:23] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-01 21:05:59,361] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\OneDrive\\Desktop\\Custom.chatgpt Project\\app\\__init__.py', reloading
+[2025-11-01 21:05:59,361] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\OneDrive\\Desktop\\Custom.chatgpt Project\\app\\__init__.py', reloading
+[2025-11-01 21:05:59,362] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\OneDrive\\Desktop\\Custom.chatgpt Project\\app\\__init__.py', reloading

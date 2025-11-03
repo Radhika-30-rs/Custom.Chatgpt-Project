@@ -1,0 +1,12 @@
+[2025-11-01 21:49:16,135] app_logger - INFO - \u2705 Application started successfully
+[2025-11-01 21:49:16,198] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-01 21:49:16,198] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-11-01 21:49:16,211] werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2025-11-01 21:49:16,565] app_logger - INFO - \u2705 Application started successfully
+[2025-11-01 21:49:16,642] werkzeug - WARNING -  * Debugger is active!
+[2025-11-01 21:49:16,649] werkzeug - INFO -  * Debugger PIN: 116-441-446
+[2025-11-01 22:20:06,407] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-11-01 22:20:06,484] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+[2025-11-01 22:20:06,521] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\socket.py', reloading
+[2025-11-01 22:20:06,996] werkzeug - INFO -  * Restarting with watchdog (windowsapi)

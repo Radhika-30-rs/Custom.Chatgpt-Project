@@ -1,0 +1,3 @@
+[2025-11-01 22:20:06,870] app_logger - INFO - \u2705 Application started successfully
+[2025-11-01 22:20:06,899] werkzeug - WARNING -  * Debugger is active!
+[2025-11-01 22:20:06,902] werkzeug - INFO -  * Debugger PIN: 116-441-446

@@ -1,0 +1,16 @@
+[2025-11-01 21:14:46,504] app_logger - INFO - \u2705 Application started successfully
+[2025-11-01 21:14:46,554] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-01 21:14:46,554] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-11-01 21:14:46,565] werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2025-11-01 21:14:46,834] app_logger - INFO - \u2705 Application started successfully
+[2025-11-01 21:14:46,861] werkzeug - WARNING -  * Debugger is active!
+[2025-11-01 21:14:46,864] werkzeug - INFO -  * Debugger PIN: 116-441-446
+[2025-11-01 21:14:51,955] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 21:14:51] "GET / HTTP/1.1" 200 -
+[2025-11-01 21:14:51,975] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 21:14:51] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[2025-11-01 21:14:51,978] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 21:14:51] "[33mGET /static/images/image.png HTTP/1.1[0m" 404 -
+[2025-11-01 21:16:27,022] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\OneDrive\\Desktop\\Custom.chatgpt Project\\app\\routes\\__init__.py', reloading
+[2025-11-01 21:16:27,025] werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\OneDrive\\Desktop\\Custom.chatgpt Project\\app\\routes\\__init__.py', reloading
+[2025-11-01 21:16:27,210] werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2025-11-01 21:46:42,981] werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[2025-11-01 22:20:07,000] werkzeug - INFO -  * Restarting with watchdog (windowsapi)

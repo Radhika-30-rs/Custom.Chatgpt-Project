@@ -1,0 +1,9 @@
+[2025-11-01 22:20:07,302] app_logger - INFO - \u2705 Application started successfully
+[2025-11-01 22:20:07,303] app_logger - INFO - \u2705 Application started successfully
+[2025-11-01 22:20:07,326] werkzeug - WARNING -  * Debugger is active!
+[2025-11-01 22:20:07,329] werkzeug - INFO -  * Debugger PIN: 116-441-446
+[2025-11-01 22:20:07,329] werkzeug - INFO -  * Debugger PIN: 116-441-446
+[2025-11-01 22:20:11,346] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 22:20:11] "GET / HTTP/1.1" 200 -
+[2025-11-01 22:20:11,359] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 22:20:11] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[2025-11-01 22:20:11,364] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 22:20:11] "[33mGET /static/images/image(1).png HTTP/1.1[0m" 404 -
+[2025-11-01 22:21:22,166] werkzeug - INFO - 127.0.0.1 - - [01/Nov/2025 22:21:22] "POST /api/chat HTTP/1.1" 200 -

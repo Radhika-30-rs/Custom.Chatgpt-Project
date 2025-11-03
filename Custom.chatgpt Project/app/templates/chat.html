@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWGPT</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>PWGPT</h1>
+  </header>
+
+  <main>
+    <div class="chat-box" id="chat-box">
+      <div class="bot-message">
+        👋 Hi! I'm your AI tutor. How can I assist you today?
+      </div>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Type your message here..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </main>
+
+  <script>
+    const chatBox = document.getElementById("chat-box");
+    const sendBtn = document.getElementById("send-btn");
+    const userInput = document.getElementById("user-input");
+
+    function addMessage(sender, text) {
+      const msg = document.createElement("div");
+      msg.classList.add(sender === "user" ? "user-message" : "bot-message");
+      msg.innerHTML = text.replace(/\n/g, "<br>");
+      chatBox.appendChild(msg);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    async function sendMessage() {
+      const message = userInput.value.trim();
+      if (!message) return;
+
+      addMessage("user", message);
+      userInput.value = "";
+
+      const typing = document.createElement("div");
+      typing.classList.add("bot-message");
+      typing.innerHTML = "<em>Typing...</em>";
+      chatBox.appendChild(typing);
+      chatBox.scrollTop = chatBox.scrollHeight;
+
+      try {
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message }),
+        });
+
+        const data = await response.json();
+        chatBox.removeChild(typing);
+        addMessage("bot", data.response);
+      } catch (err) {
+        chatBox.removeChild(typing);
+        addMessage("bot", "⚠️ Error: Unable to connect to server.");
+      }
+    }
+
+    sendBtn.addEventListener("click", sendMessage);
+    userInput.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") sendMessage();
+    });
+  </script>
+</body>
+</html>
